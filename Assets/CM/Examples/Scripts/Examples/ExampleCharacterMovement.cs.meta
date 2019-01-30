@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 275eb5a44cad140aa8fed68b25a67c1f
+labels:
+- Example
+- Character
+- Movement
+timeCreated: 1450183842
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

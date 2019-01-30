@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ca9ef14c3be43478c952580423919820
+labels:
+- Global
+- Coroutine
+- Manager
+- Abstract
+timeCreated: 1450042059
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

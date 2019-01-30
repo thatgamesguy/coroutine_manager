@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f201e47db043f49189c3dd8c10fc120c
+labels:
+- Test
+- Example
+- Job
+- Queue
+timeCreated: 1451847632
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

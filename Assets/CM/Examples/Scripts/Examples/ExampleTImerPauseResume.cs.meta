@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 77144232edfbf4ba3a3b484142539ea7
+labels:
+- Example
+- Timer
+- Pause
+- Resume
+timeCreated: 1451918938
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8e0ce46d0217e4729a380e3524545fe8
+labels:
+- Help
+- Helper
+- Job
+- Manager
+- Coroutine
+- Log
+- Logger
+- Debug
+timeCreated: 1449856569
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

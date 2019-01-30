@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 15176c84bf0204aa9bb7c7091ef74ee1
+labels:
+- Test
+- Example
+- Job
+- Manager
+timeCreated: 1451856787
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
