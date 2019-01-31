@@ -30,7 +30,7 @@ public class ExampleContinousSpawner : MonoBehaviour
 		CM_Job.Make (SpawnPrefab ())
 			.Repeat (numToSpawn)
 			.NotifyOnJobComplete ((object sender, CM_JobEventArgs e) => {
-				Debug.Log ("Object Spawned");
+                Debug.Log ("Object(s) Spawned");
 			}).Start ();
 	}
 	

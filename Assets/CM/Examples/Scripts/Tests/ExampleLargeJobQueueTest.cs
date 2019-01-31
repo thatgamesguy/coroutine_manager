@@ -14,7 +14,8 @@ public class ExampleLargeJobQueueTest : MonoBehaviour {
 	{
 		_jobsToQueue = new CM_Job[queueSize];
 
-		for (int i = 0; i < queueSize; i++) {
+		for (int i = 0; i < queueSize; i++) 
+        {
 			_jobsToQueue [i] = CM_Job.Make (SmallJobForLargeQueue(i + 1));
 		}
 
@@ -24,7 +25,7 @@ public class ExampleLargeJobQueueTest : MonoBehaviour {
 	private IEnumerator SmallJobForLargeQueue (int jobNum)
 	{
 		Debug.Log (string.Format ("Large queue test, job {0} of {1}", jobNum, queueSize));
-		yield return new WaitForEndOfFrame ();
+        yield return null;
 	}
 	
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Reflection;
 using System.Collections;
 
@@ -24,16 +25,19 @@ public static class CM_Extensions
 	public static IEnumerator Clone (this IEnumerator source)
 	{
 		var sourceType = source.GetType ().UnderlyingSystemType;
-		var sourceTypeConstructor = sourceType.GetConstructors () [0]; 
-		var newInstance = sourceTypeConstructor.Invoke (null) as IEnumerator;
+        var sourceTypeConstructor = sourceType.GetConstructor (new Type[] {typeof(Int32)}); 
+        var newInstance = sourceTypeConstructor.Invoke (new object[] { 0 }) as IEnumerator;
 		
 		var nonPublicFields = source.GetType ().GetFields (BindingFlags.NonPublic | BindingFlags.Instance);
-		var publicFields = source.GetType ().GetFields (BindingFlags.Public | BindingFlags.Instance);
-		foreach (var field in nonPublicFields) {
+		foreach (var field in nonPublicFields) 
+        {
 			var value = field.GetValue (source);
 			field.SetValue (newInstance, value);
 		}
-		foreach (var field in publicFields) {
+
+        var publicFields = source.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance);
+        foreach (var field in publicFields) 
+        {
 			var value = field.GetValue (source);
 			field.SetValue (newInstance, value);
 		}
